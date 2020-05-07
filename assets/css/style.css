@@ -10,6 +10,20 @@ body{
 .bg-color-name-title{
     background-color: #676767;
 }
+
+.ui-menu-color-home {
+    background-color: #e67e22
+}
+.ui-menu-color-resume {
+    background-color: #9b59b6
+}
+.ui-menu-color-contact {
+    background-color: #3498db
+}
+.ui-menu-color-download {
+    background-color: #525252
+}
+
 /*---------------------------------------------HEADINGS  */
 
 header{ /*Setting the margin to 0 is good practise */
@@ -47,3 +61,17 @@ header{ /*Setting the margin to 0 is good practise */
     color: #fff;
 }
 
+.list-inline-item:not(:last-child) {
+    margin-right: 0rem;
+}
+
+
+
+.menucontainer{
+    font-size: 0;
+}
+
+#nav li{
+    font-size: 14px;
+    padding:0;
+}
