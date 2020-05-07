@@ -13,3 +13,5 @@ index: start from the left -- or logo (for a profile)
 style: add logo to css
 
 index: ui-menu-color-home --was added as a class to target the nav elements individually for css
+
+index: adding no-gutters --- gets rid of default padding provided by bootstrap---
