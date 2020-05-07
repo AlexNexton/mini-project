@@ -1,0 +1,21 @@
+/* import google fonts and keep all imports at the top! */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700 &display=swap');
+
+body{
+    font-family: 'Roboto' sans-serif;
+}
+
+header{ /*Setting the margin to 0 is good practise */
+    margin: 0;
+}
+.logo{
+    background:url("../img/NaicBW.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /*covers the container it's sitting inside */
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out; /*copy and pasted twice to add prefex's to  make sure it works in all of them */
+    -webkit-transition: all .5s ease-in-out;
+}

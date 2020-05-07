@@ -1,0 +1,10 @@
+Set up the skeleton of the html page, making sure you have all the links
+to bootstrap, font awesome and your own style sheet
+
+Perform the initial commit
+
+set up row and cols in the header - generally applying the law of two thirds
+
+add google fonts to style.css -- make sure that all the links are working before continuing
+
+in bootstrap each row must follow a column class -- row >> col
