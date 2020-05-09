@@ -24,6 +24,22 @@ body{
     background-color: #525252
 }
 
+/*---------------------------------------------SPECIAL PADDINGS/MARGINS/TEXTS */
+h1,h2,h3,h4{
+    margin:  0;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.gensub{
+    font-family: 'Exo', sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+
 /*---------------------------------------------HEADINGS  */
 
 header{ /*Setting the margin to 0 is good practise */
@@ -115,4 +131,13 @@ header{ /*Setting the margin to 0 is good practise */
 
 .hvr-sweep-to-bottom:before{
   background-color:rgb(119, 245, 119);
+}
+
+/*---------------------------------------------FOOTER  */
+
+footer{
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin:  0;
 }
