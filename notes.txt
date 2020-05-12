@@ -25,3 +25,7 @@ style: (display: block;)  We're also going to set the display to block,
  so it will start and end with a newline and occupy the entirety of the horizontal space.
 
  Clear:both; Stops item appearing at either side of it
+
+ form-control --- this class is requierd in bootstrap
+
+ 
