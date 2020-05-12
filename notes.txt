@@ -20,3 +20,8 @@ style: added hover class and figured out how to make all the nav items change co
 
 Footer: when creating a <ul></ul> and using bootstrap's 'list-inline' class,
 each <li></li> needs to have 'list-inline-item'
+
+style: (display: block;)  We're also going to set the display to block,
+ so it will start and end with a newline and occupy the entirety of the horizontal space.
+
+ Clear:both; Stops item appearing at either side of it
