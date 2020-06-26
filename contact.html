@@ -23,6 +23,16 @@
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
 	<!--VERY IMPORTANT: this is placed after bootstrap in order to overwrite it(always place this last)-->
 
+    <!--This is an API for emailjs.com used to send requests made by users-->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function(){
+	      emailjs.init("user_UiLEarEKjkUhcVmQFSiyk");
+	       emailjs.send("gmail", "naic_s", {
+	                    name: "Naic", notes:"The project that I want is... "})
+	   })();
+	</script>
+
 </head>
 <body>
     
@@ -173,15 +183,6 @@
         
     
      </footer>
-    
-
-
-
-</body>
-
-<!--BootStrap Javascript-->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-	integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-</script>
-
-</html>
+	</body>
+	
+	</html>
