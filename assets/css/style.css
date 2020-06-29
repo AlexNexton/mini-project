@@ -7,6 +7,10 @@ body{
 }
 /*---------------------------------------------COLOURS  */
 
+#map {
+    min-height: 360px;
+    }
+
 .bg-color-name-title{
     background-color: #676767;
 }
